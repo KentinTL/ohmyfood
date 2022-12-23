@@ -116,16 +116,18 @@ main {
     margin-top: 15px;
     margin-bottom: 30px;
   }
-  button {
+  .button {
     background: linear-gradient(to top left, #9356DC, #FF79DA);
     border: none;
     border-radius: 25px;
+    margin: 0 auto;
     padding: 15px 30px 15px 30px;
+    width: 200px;
     a{
       color: #ffff;
     }
   }
-  button:hover {
+  .button:hover {
     cursor: pointer;
     background: linear-gradient(to top left, #965ddc, #ff85dc);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 5px 3px;
@@ -512,7 +514,7 @@ footer {
         } 
       }
     }
-    button {
+    .button {
       background: linear-gradient(to top left, #9356DC, #FF79DA);
       border: none;
       border-radius: 25px;
@@ -524,7 +526,7 @@ footer {
       color: #ffff;
       }
     }
-    button:hover {
+    .button:hover {
       cursor: pointer;
       background: linear-gradient(to top left, #965ddc, #ff85dc);
       box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 5px 3px;
